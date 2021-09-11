@@ -80,6 +80,9 @@ body {
 .cube:hover {
   animation: cube 5s linear infinite;
 }
+.rotate {
+  animation: cube 5s linear infinite;
+}
 @keyframes cube {
   0% {
     transform: rotateX(-30deg) rotateY(45deg);
