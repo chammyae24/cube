@@ -75,6 +75,16 @@
             <div class="grid"></div>
             <div class="grid"></div>
         </div>
+        <button class="click-me">ROTATE</button>
+
+    <script>
+        const cube = document.querySelector(".cube");
+        const clickMe = document.querySelector(".click-me");
+
+        clickMe.addEventListener("click", function(){
+            cube.classList.toggle("rotate");
+        });
+    </script>
         
     </div>
 </body>
